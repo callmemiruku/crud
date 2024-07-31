@@ -328,28 +328,6 @@ swiper-pagination-bullet-active {
 }
 
 
-@media (max-width: 1150px) {
-    header {
-        padding: 18px 7%;
-    }
-    section {
-        padding: 50px 7%;
-    }
-    .home-text h1 {
-        font-size: 3rem;
-    }
-    .home-text h2 {
-        font-size: 1.5rem;
-    }
-}
-@media (max-width: 991px) {
-    header {
-        padding: 18px 4%;
-    }
-    section {
-        padding: 50px 4%;
-    }
-}
 @media (max-width: 412px) {
     header {
         padding: 11px 4%;
@@ -412,17 +390,17 @@ swiper-pagination-bullet-active {
     .about {
         flex-direction: column-reverse;
     }
-    .pic {
-        width: 380px;
-        height: auto;
+    iframe {
+        width: 360px;
+        height: 300px;
     }
-    .img {
-        width: 300px;
-        display: block;
-        margin: auto;
+    .delivery-text {
+        margin-top: -80px;
     }
-}
-@media (max-width: 364px) {
+    .btnlogin {
+        width: 100px;
+        margin-bottom: 20px;
+    }
     .links {
         display: flex;
         flex-direction: column;
